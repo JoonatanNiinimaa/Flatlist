@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "demo",
-    "slug": "demo",
+    "name": "orientation",
+    "slug": "orientation",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -25,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
