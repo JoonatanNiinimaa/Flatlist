@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { TextInput, View, StyleSheet, Button } from "react-native";
-export default function Add({items,setItems}) {
+
+export default function Add({items,setItems, storeData}) {
     const [firstname, setFirstname] = useState('');
     const [lastname, setLastname] = useState('');
 
@@ -11,6 +12,7 @@ export default function Add({items,setItems}) {
             firstname: firstname,
         }
         const tempItems = [...items,newPerson]
+        storeData(tempItems)
         setItems(tempItems)
         setFirstname('')
         setLastname('')

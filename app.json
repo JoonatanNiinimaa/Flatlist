@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "orientation",
-    "slug": "orientation",
+    "name": "default",
+    "slug": "default",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/icon.png",
